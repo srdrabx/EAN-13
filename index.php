@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<title>Contact V10</title>
+	<title>EAN-13 Code Generator</title>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 <!--===============================================================================================-->
@@ -37,17 +37,17 @@
 				</span>
 
 				<div class="wrap-input100 validate-input" data-validate="Código del País">
-					<input class="input100" type="number" maxlength="2" name="pais" placeholder="Código país">
+					<input class="input100" type="number" maxlength="2" name="pais" placeholder="Código país (2 dígitos)">
 					<span class="focus-input100"></span>
 				</div>
 
 				<div class="wrap-input100 validate-input" data-validate = "Código de la empresa">
-					<input class="input100" type="number" maxlength="5" name="empresa" placeholder="Código empresa">
+					<input class="input100" type="number" maxlength="5" name="empresa" placeholder="Código empresa (5 dígitos)">
 					<span class="focus-input100"></span>
 				</div>
 
 				<div class="wrap-input100 validate-input" data-validate = "Código del producto">
-					<input class="input100" type="number" maxlength="5" name="producto"  placeholder="Código producto">
+					<input class="input100" type="number" maxlength="5" name="producto"  placeholder="Código producto (5 dígitos)">
 					<span class="focus-input100"></span>
 				</div>
 
