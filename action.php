@@ -17,7 +17,7 @@ $producto = $_POST['producto'];
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<title>Contact V10</title>
+	<title>EAN-13 Code Generator</title>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 <!--===============================================================================================-->
