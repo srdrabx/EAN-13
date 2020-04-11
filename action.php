@@ -57,6 +57,8 @@ $producto = $_POST['producto'];
       <h1><?php echo $pais.$empresa.$producto ?>
       <strong><?php echo ' + ', ean13_checksum($pais.$empresa.$producto); ?></strong></h1>
       </br>
+      <img src="https://ean.covid-map.info/example/html/image.php?filetype=PNG&dpi=300&scale=3&rotation=0&font_family=Arial.ttf&font_size=26&text=<?php echo $pais.$empresa.$producto ?><?php echo ean13_checksum($pais.$empresa.$producto); ?>&thickness=30&code=BCGean13" alt="Código de barras">
+      </br>
       </br>
       <div class="container-contact100-form-btn">
 					<button onclick="goBack()" class="contact100-form-btn">
